@@ -1,0 +1,28 @@
+<h1>navegaciones especiales</h1>
+
+
+<nav>
+    <ul>
+        <li>
+            <a href="{% url 'index' %}">home</a>
+        </li>
+        <li>
+            <a href="{% url 'about' %}">about</a>
+        </li>
+        <li>
+            <a href="{% url 'projects' %}">projects</a>
+        </li>
+        <li>
+            <a href="{% url 'task' %}">task</a>
+        </li>
+        <li>
+            <a href="{% url 'createTask' %}">CreateTask</a>
+        </li>
+        <li>
+            <a href="{% url 'CreateProject' %}">CreateProject</a>
+        </li>
+    </ul>
+</nav>
+
+{% block content %}
+{% endblock content %}

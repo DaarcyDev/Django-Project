@@ -1,0 +1,17 @@
+
+{% extends 'layout/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<h1>{{title}}</h1>
+
+<img src="{% static 'image.jpg' %}" alt="" width="250">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dignissimos quia, reprehenderit, nobis ducimus, obcaecati neque ad incidunt quisquam animi nostrum illo eligendi in velit. Molestias repudiandae neque dolores aspernatur?</p> 
+
+{% endblock content %}
+{% comment %} 
+{% block footer %}
+{% include 'layout/footer.html' %}
+{% endblock footer %} {% endcomment %}

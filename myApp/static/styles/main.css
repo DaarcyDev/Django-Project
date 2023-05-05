@@ -1,0 +1,45 @@
+body{
+    background: #202050;
+    color: white;
+    padding: .5rem;
+}
+.navbar{
+    background: #202020;
+    margin: 1rem;
+    padding: 1rem;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+.navbar ul li a:hover{
+    color: aqua;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: #202020;
+    padding: 1rem;
+}
+
+.card{
+    background: whitesmoke;
+    padding: 1rem;
+    margin: .5rem;
+    color: black;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}

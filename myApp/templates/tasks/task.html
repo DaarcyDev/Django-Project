@@ -1,0 +1,21 @@
+{% extends 'layout/base.html' %}
+
+{% block content %}
+
+<h1>Task</h1>
+
+<div class="card">
+    {%for task in tasks%}
+        <h1> {%if task.Done == False%}🕑 {%else%}✓ {%endif%} {{task.title}}</h1>
+ 
+        <p>{{task.description}}</p>
+        <p>id project = {{task.project}}</p>
+        <button>
+            Delete
+        </button>
+        <button>
+            ✓ Done
+        </button>
+    {% endfor %}
+</div>
+{% endblock content %}

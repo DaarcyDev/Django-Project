@@ -1,0 +1,13 @@
+{% extends 'layout/base.html' %}
+
+{% block content %}
+<h1>Project detail</h1>
+{{project}}
+{%for task in tasks%}
+    <div class="card">
+        <h1> {{task.title}}</h1>
+ 
+        <p>{{task.description}}</p>
+    </div>
+    {% endfor %}
+{% endblock content %}
